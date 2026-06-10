@@ -1,2 +1,4 @@
 def test_basic_math():
-    assert 2 + 2 == 4
+    result = 2 + 2
+    print("Result is:", result)
+    assert result == 4
