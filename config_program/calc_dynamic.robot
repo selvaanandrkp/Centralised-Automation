@@ -48,25 +48,25 @@ Add Numbers
     ${A}=    Convert To Number    ${a}
     ${B}=    Convert To Number    ${b}
     ${result}=    Evaluate    ${A} + ${B}
-    [Return]    ${result}
+    RETURN    ${result}
 
 Subtract Numbers
     [Arguments]    ${a}    ${b}
     ${A}=    Convert To Number    ${a}
     ${B}=    Convert To Number    ${b}
     ${result}=    Evaluate    ${A} - ${B}
-    [Return]    ${result}
+    RETURN    ${result}
 
 Multiply Numbers
     [Arguments]    ${a}    ${b}
     ${A}=    Convert To Number    ${a}
     ${B}=    Convert To Number    ${b}
     ${result}=    Evaluate    ${A} * ${B}
-    [Return]    ${result}
+    RETURN    ${result}
 
 Divide Numbers
     [Arguments]    ${a}    ${b}
     ${A}=    Convert To Number    ${a}
     ${B}=    Convert To Number    ${b}
     ${result}=    Evaluate    ${A} / ${B}
-    [Return]    ${result}
+    RETURN    ${result}
